@@ -72,7 +72,7 @@ jobs:
       - name: ✅ Staging deployment complete
         run: echo "✅ ¡Despliegue en staging finalizado!"
 
-  # Job 6: Desplegar a Producción (requiere aprobación manual)
+  # Job 6: Desplegar a Producción (requiere aprobación manual antes de ejecutarse)
   deploy-prod:
     name: 🚀 Deploy a Producción
     needs: deploy-staging
